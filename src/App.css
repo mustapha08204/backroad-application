@@ -43,7 +43,13 @@ Variables
 Global Styles
 ===============
 */
-
+html {
+  scroll-behavior: smooth;
+}
+.section {
+  /* navbar height */
+  scroll-margin-top: 4rem;
+}
 * {
   margin: 0;
   padding: 0;
